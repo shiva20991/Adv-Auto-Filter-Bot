@@ -351,7 +351,7 @@ async def auto_filter (bot, update):
 async def cb_handler(bot, query:CallbackQuery, group=1):
     cb_data = query.data
     
-    if cb_data == "start":
+    if cb_data == "stat":
         buttons = [[
             InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
             InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
