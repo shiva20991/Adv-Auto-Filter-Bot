@@ -351,12 +351,12 @@ async def auto_filter (bot, update):
 async def cb_handler(bot, query:CallbackQuery, group=1):
     cb_data = query.data
     
-    if cb_data == "stat":
+    if cb_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('official channel 👨‍🔬', url='https://t.me/tamilrockersvpn'),
+            InlineKeyboardButton('new movie 🧾', url ='https:/t.me/trvpn')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('Support channel 🛠', url='https://t.me/tamilrockersvpn')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
